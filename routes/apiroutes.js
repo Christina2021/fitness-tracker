@@ -21,7 +21,16 @@ apiRouter.get("/api/workouts", (req, res) => {
     });
 });
 
-// post /api/workouts
+// Creating a New Workout
+apiRouter.post("/api/workouts", (req, res) => {
+    db.Workout.create({})
+        .then(dbWorkout => {
+            res.json(dbWorkout);
+        })
+        .catch(err => {
+            res.json(err);
+        });
+});
 
 // put /api/workouts/:id
 
