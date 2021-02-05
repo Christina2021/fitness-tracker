@@ -29,10 +29,10 @@ Feel free to check out the website [here](https://christina2021-fitness-tracker.
 ## Usage
 Please see the following instructions on how to use this application: <br>
 ⭐ Once the webpage has been open, create a new workout for the day by clicking on the green "New Workout" button.  If a workout for the day has already been created, click on the blue "Continue Workout" button to add more exercises for the day's workout.<br>
-![Screenshot2](./public/images/readme-screenshot-02.png)
+![Screenshot2](./public/images/readme-screenshot-02.png)<br>
 ⭐ A page will then appear to add in a new exercise.  If the type of exercise is "Resistance", then fields for exercise name, weight (in pounds), sets, reps, and duration (in minutes) will need to be completed.  If the typd of exercise is "Cardio", then fields for the exercise name, distance (in miles), and duration (in minutes will need to be completed).<br>
 ![Screenshot3](./public/images/readme-screenshot-03.png)
-![Screenshot4](./public/images/readme-screenshot-04.png)
+![Screenshot4](./public/images/readme-screenshot-04.png)<br>
 ⭐ The dashboard page will show the stats for the past 7 workouts.  It will include the daily workout duration, pounds lifted, and exercises performed.<br>
 ![Screenshot5](./public/images/readme-screenshot-05.png)
 
