@@ -23,7 +23,7 @@ app.use(require("./routes/apiroutes.js"));
 app.use(require("./routes/htmlroutes.js"));
 
 // mongoose
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false, useCreateIndex: true, useUnifiedTopology: true });
 
 // start server
 app.listen(PORT, () => {
