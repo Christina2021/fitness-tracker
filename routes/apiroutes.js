@@ -62,9 +62,6 @@ apiRouter.get("/api/workouts/range", (req, res) => {
         }
     ])
     .then((dbWorkout) => {
-        dbWorkout.forEach(item => {
-            console.log(item.exercises);
-        })
         res.json(dbWorkout);
     })
     .catch(( {err} ) => {
